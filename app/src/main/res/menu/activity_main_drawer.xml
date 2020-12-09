@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/estadoFragment"
+            android:title="Estado Alarma"
+            android:icon="@drawable/ic_baseline_star_border_24"/>
+            <!-- android:icon="@drawable/ic_menu_camera" -->
+        <item
+            android:id="@+id/ajustesFragment"
+            android:title="Ajustes de Alarma"
+            android:icon="@drawable/ic_menu_settings_24"/>/>
+
+        <item
+            android:id="@+id/sensoresFragment"
+            android:title="Estado de Sensores"
+            android:icon="@drawable/ic_baseline_videogame_asset_24"/>
+
+        <item
+            android:id="@+id/bitacoraFragment"
+            android:title="Bitacora"
+            android:icon="@drawable/ic_baseline_menu_book_24">
+        </item>
+    </group>
+</menu>

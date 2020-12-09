@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/estadoFragment">
+
+    <fragment
+        android:id="@+id/estadoFragment"
+        android:name="com.example.alarmasp.EstadoFragment"
+        android:label="Estado de Alarma"
+        tools:layout="@layout/fragment_estado" />
+    <fragment
+        android:id="@+id/sensoresFragment"
+        android:name="com.example.alarmasp.SensoresFragment"
+        android:label="Estado de Sensores"
+        tools:layout="@layout/fragment_sensores" />
+    <fragment
+        android:id="@+id/ajustesFragment"
+        android:name="com.example.alarmasp.AjustesFragment"
+        android:label="Ajustes de Alarma"
+        tools:layout="@layout/fragment_ajustes" />
+
+    <fragment
+        android:id="@+id/bitacoraFragment"
+        android:name="com.example.alarmasp.BitacoraFragment"
+        android:label="Bitacora de Alarma"
+        tools:layout="@layout/fragment_bitacora" />
+
+</navigation>
